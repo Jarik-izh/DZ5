@@ -1,0 +1,48 @@
+.background {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 500px; /* Збільшити ширину контейнера */
+}
+
+.table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.row {
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    width: auto; /* Зробити ширину рядка автоматичною */
+}
+
+.red-light-cube {
+    width: 80px; /* Збільшити розмір кубіка */
+    height: 80px;
+    background-color: #ff9999; /* Змінити колір кубіка на блідо-червоний */
+    text-align: center;
+    line-height: 80px;
+    margin: 5px;
+}
+
+.left-cube {
+    float: left;
+}
+
+.right-cube {
+    float: right;
+}
+
+.half-width {
+    width: 40px; /* Розмір половинного кубіка */
+    height: 40px;
+    line-height: 40px;
+}
